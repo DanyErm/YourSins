@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f203922de7426e4a8ef730901195bbb, type: 3}
+  m_Name: ProjectilesData
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectilesData
+  boneShard: {fileID: 8877394735887033470, guid: 302b8dc4a03013943ae248af0764caab, type: 3}
+  chasingPacman: {fileID: 4814811206201775680, guid: ffa4dce8f7e38e04c9c716184c117356, type: 3}
+  circlingPacman: {fileID: 4814811206201775680, guid: 6b02497d01fc968449d0526db8378b70, type: 3}
+  face: {fileID: 3588553306102497731, guid: e84ee9860ba458b4fbc0ae55832cc6df, type: 3}
+  spinningBone: {fileID: 4850124254070914041, guid: 4e046d0b35f616849bb8f15d26c9ef20, type: 3}
+  spinningKnife: {fileID: 213143391061635825, guid: 6bf57507b03306240b7945d456946ae8, type: 3}
+  straightFlyingBone: {fileID: 4850124254070914041, guid: 9f9a7f9d028a9eb40a2c77e91cfba411, type: 3}
+  straightFlyingKnife: {fileID: 213143391061635825, guid: c7ca13cf7327d1d4cb2c68a57249cf76, type: 3}
+  defaultSquare: {fileID: 5043962883305328583, guid: 67e23b683cae6fd44aeec20412522e0b, type: 3}
