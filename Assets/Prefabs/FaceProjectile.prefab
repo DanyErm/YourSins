@@ -50,7 +50,7 @@ MonoBehaviour:
   harmlessPartTime: 3
   harmfulPartTime: 3
   faceAnimator: {fileID: 3937825904082160751}
-  boxCollider2D: {fileID: 0}
+  circleCollider2D: {fileID: 8854969126509076697}
 --- !u!212 &7453823253122354421
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -98,7 +98,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -3870598125130652697, guid: c5d894178d9b40c49b9c0998352d1b90, type: 3}
+  m_Sprite: {fileID: 1835555717511579953, guid: 9c931b80f3153d24e8c7ee04fc868a31, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.64705884}
   m_FlipX: 0
   m_FlipY: 0

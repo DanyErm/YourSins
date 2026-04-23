@@ -1,8 +1,10 @@
 using UnityEngine;
+using Zenject;
 
 public class CharacterMovement : MonoBehaviour
 {
-    public float moveSpeed;
+    [Inject] private Character _char;
+
     public Rigidbody2D rb2d;
     private Vector2 moveInput;
     private float activeMoveSpeed;
@@ -11,7 +13,7 @@ public class CharacterMovement : MonoBehaviour
 
     void Start()
     {
-        activeMoveSpeed = moveSpeed;
+        activeMoveSpeed = _char.moveSpeed;
     }
 
     void Update()

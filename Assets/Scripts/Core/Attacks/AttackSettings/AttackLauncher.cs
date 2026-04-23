@@ -36,7 +36,6 @@ namespace Core.Attacks.AttackSettings
 
             return parameter.ProjectileType switch
             {
-                ProjectileType.boneShard => projectiles.BoneShard,
                 ProjectileType.chasingPacman => projectiles.ChasingPacman,
                 ProjectileType.circlingPacman => projectiles.CirclingPacman,
                 ProjectileType.face => projectiles.Face,

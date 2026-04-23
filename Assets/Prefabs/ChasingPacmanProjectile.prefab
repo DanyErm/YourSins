@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 7186777748773566714}
   - component: {fileID: -4846322940688143666}
   - component: {fileID: 4927051504605389287}
-  - component: {fileID: 2717644435126758611}
+  - component: {fileID: 6166842835505021388}
+  - component: {fileID: 5513766953728651223}
   m_Layer: 0
   m_Name: ChasingPacmanProjectile
   m_TagString: Projectile
@@ -47,6 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChasingProjectileBehaviour
   movementSpeed: 1.5
+  duration: 10
 --- !u!212 &4927051504605389287
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -94,9 +96,9 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3212801859442847008, guid: 1ca0e57be10857a4b85577b627f36e6a, type: 3}
+  m_Sprite: {fileID: 3212801859442847008, guid: 4bd70206761fde048bd0132300d69981, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 2, y: 2}
@@ -105,8 +107,30 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2717644435126758611
-BoxCollider2D:
+--- !u!95 &6166842835505021388
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4814811206201775680}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1af3b272e6ead23459b35ca32ec08685, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!58 &5513766953728651223
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -140,14 +164,4 @@ BoxCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.224, y: 2.368}
-    newSize: {x: 2, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 2.224, y: 2.368}
-  m_EdgeRadius: 0
+  m_Radius: 0.453125

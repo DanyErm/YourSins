@@ -11,7 +11,6 @@ public class ArenaBotSpawn : BaseSpawner
     {
         _spawnLocation = CalculateSpawnLocation(x, y);
 
-        Instantiate(projectile, _spawnLocation, Quaternion.Euler(0, 0, 180));
         _container.InstantiatePrefab(projectile, _spawnLocation, Quaternion.Euler(0, 0, 180), null);
     }
 

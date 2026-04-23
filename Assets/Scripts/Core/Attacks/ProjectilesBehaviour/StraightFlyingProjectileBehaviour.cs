@@ -17,4 +17,9 @@ public class StraightFlyingProjectileBehaviour : MonoBehaviour
         preparationSpeed *= -movementToPreparationSpeedRatio;
         boxCollider2D.enabled = true;
     }
+
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }
 }

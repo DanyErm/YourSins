@@ -14,7 +14,6 @@ namespace Core.Attacks.AttackSettings
 
     public enum ProjectileType
     {
-        boneShard,
         chasingPacman,
         circlingPacman,
         face,

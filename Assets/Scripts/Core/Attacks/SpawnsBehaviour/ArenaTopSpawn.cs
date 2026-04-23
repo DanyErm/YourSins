@@ -11,7 +11,7 @@ public class ArenaTopSpawn : BaseSpawner
     {
         _spawnLocation = CalculateSpawnLocation(x, y);
 
-        Quaternion rotation = Quaternion.Euler(0, 0, projectile.transform.eulerAngles.z);
+        Quaternion rotation = Quaternion.Euler(0, 0, 0);
         _container.InstantiatePrefab(projectile, _spawnLocation, rotation, null);
 
         //GameObject newProjectile = Instantiate(projectile, _spawnLocation, Quaternion.Euler(0, 0, projectile.transform.eulerAngles.z));

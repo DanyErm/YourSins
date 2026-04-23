@@ -16,5 +16,20 @@ MonoBehaviour:
   - DelayTime: 0
     FirstSpawnParameter: 0
     SecondSpawnParameter: 0
-    ProjectileType: 1
+    ProjectileType: 4
+    AttackLocation: 2
+  - DelayTime: 1
+    FirstSpawnParameter: 0
+    SecondSpawnParameter: 0
+    ProjectileType: 5
+    AttackLocation: 0
+  - DelayTime: 1
+    FirstSpawnParameter: 0
+    SecondSpawnParameter: 0
+    ProjectileType: 3
     AttackLocation: 3
+  - DelayTime: 1
+    FirstSpawnParameter: 0
+    SecondSpawnParameter: 0
+    ProjectileType: 6
+    AttackLocation: 1

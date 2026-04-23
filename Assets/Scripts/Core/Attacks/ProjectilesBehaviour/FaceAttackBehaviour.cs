@@ -7,7 +7,7 @@ public class FaceAttackBehaviour : MonoBehaviour
     [SerializeField] private float harmfulPartTime = 1.5f;
 
     [SerializeField] private Animator faceAnimator;
-    [SerializeField] private BoxCollider2D boxCollider2D;
+    [SerializeField] private CircleCollider2D circleCollider2D;
 
 
     private IEnumerator AfterAppearingAnimCourutine()
@@ -18,9 +18,9 @@ public class FaceAttackBehaviour : MonoBehaviour
 
     private IEnumerator AfterShowingTeethAnimCourutine()
     {
-        boxCollider2D.enabled = true;
+        circleCollider2D.enabled = true;
         yield return new WaitForSeconds(harmfulPartTime);
-        boxCollider2D.enabled = false;
+        circleCollider2D.enabled = false;
         faceAnimator.Play("DisappearingAnimation");
     }
 

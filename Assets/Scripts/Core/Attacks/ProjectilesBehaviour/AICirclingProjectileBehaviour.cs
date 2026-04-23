@@ -3,7 +3,7 @@ using Zenject;
 
 public class CirclingProjectileBehaviour : MonoBehaviour
 {
-    [SerializeField] private BoxCollider2D projectileCollider;
+    [SerializeField] private CircleCollider2D circleCollider;
     [SerializeField] private float circlingVelocity = 5f;
     [SerializeField] private float movementSpeed = 5;
     [SerializeField] private float duration = 5f;
@@ -17,17 +17,16 @@ public class CirclingProjectileBehaviour : MonoBehaviour
 
     private enum State { Rotating, Moving }
     private State _state;
-    private float _t; // прогресс (0..1)
+    private float _t;
     private float _startRotation;
     private Vector2 _startPosition;
 
     private void Start()
     {
-        _projectileSize = projectileCollider.bounds.size;
+        _projectileSize = circleCollider.bounds.size;
         _circlingProjectilePositions = CalculateCornerPositions();
         _targetPos = _circlingProjectilePositions[ClosestCornerPos()];
 
-        // Начинаем с поворота к ближайшему углу
         _state = State.Rotating;
         _startRotation = transform.eulerAngles.z;
         _t = 0;
@@ -50,15 +49,12 @@ public class CirclingProjectileBehaviour : MonoBehaviour
     {
         if (_state == State.Rotating)
         {
-            // Вычисляем целевой угол относительно transform.right
             Vector2 direction = _targetPos - (Vector2)transform.position;
-            //_targetAngle = Vector2.SignedAngle(transform.right, direction);
             _targetAngle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
             _t += Time.deltaTime * circlingVelocity;
             if (_t >= 1f)
             {
-                // Поворот завершён
                 transform.rotation = Quaternion.Euler(0, 0, _targetAngle);
                 _state = State.Moving;
                 _startPosition = transform.position;
@@ -75,9 +71,7 @@ public class CirclingProjectileBehaviour : MonoBehaviour
             _t += Time.deltaTime * movementSpeed;
             if (_t >= 1f)
             {
-                // Движение завершено
                 transform.position = _targetPos;
-                // Выбираем следующий угол (по часовой стрелке)
                 _targetPos = _circlingProjectilePositions[NextCorner(true)];
                 _state = State.Rotating;
                 _startRotation = transform.eulerAngles.z;
