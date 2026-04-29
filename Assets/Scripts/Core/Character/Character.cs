@@ -8,9 +8,7 @@ public class Character : MonoBehaviour
         get { return hp; }
         set
         {
-            if (value > 3)
-                hp = 3;
-            else if (value < 0)
+            if (value < 0)
                 hp = 0;
             else
                 hp = value;

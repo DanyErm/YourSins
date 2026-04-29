@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StraightFlyingProjectileBehaviour
   preparationSpeed: 1
-  movementToPreparationSpeedRatio: 5
+  movementToPreparationSpeedRatio: 7.5
   boxCollider2D: {fileID: 1657220381049777612}
 --- !u!212 &8338808724652565287
 SpriteRenderer:
@@ -164,7 +164,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.00000014156103, y: 0}
+  m_Offset: {x: -0.0019622594, y: 0.0029435903}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -174,5 +174,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.2352962, y: 1.125}
+  m_Size: {x: 0.1371733, y: 0.977816}
   m_EdgeRadius: 0

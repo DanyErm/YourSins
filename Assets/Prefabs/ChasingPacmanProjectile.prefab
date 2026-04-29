@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92e1114600d5aed4c8ada95f20b34e6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChasingProjectileBehaviour
-  movementSpeed: 1.5
-  duration: 10
+  movementSpeed: 0.85
+  duration: 12.5
 --- !u!212 &4927051504605389287
 SpriteRenderer:
   m_ObjectHideFlags: 0

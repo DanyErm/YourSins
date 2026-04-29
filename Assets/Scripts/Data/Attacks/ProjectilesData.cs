@@ -3,9 +3,6 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "ProjectilesData", menuName = "Configs/ProjectilesData")]
 public class ProjectilesData : ScriptableObject
 {
-    [SerializeField] private GameObject boneShard;
-    public GameObject BoneShard { get { return boneShard; } }
-
     [SerializeField] private GameObject chasingPacman;
     public GameObject ChasingPacman { get { return chasingPacman; } }
 

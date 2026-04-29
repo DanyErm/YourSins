@@ -25,7 +25,16 @@ public class RandomSpawn : BaseSpawner
 
     private IEnumerator PlaceProjectiles(float howLong, float howOften, GameObject projectile)
     {
-        Vector2 projectileSize = projectile.GetComponent<BoxCollider2D>().size;
+        Vector2 projectileSize;
+        try
+        {
+            projectileSize = projectile.GetComponent<BoxCollider2D>().size;
+        }
+        catch
+        {
+            projectileSize = new Vector2(projectile.GetComponent<CircleCollider2D>().radius, projectile.GetComponent<CircleCollider2D>().radius);
+        }
+        
 
         while (howLong > howOften)
         {

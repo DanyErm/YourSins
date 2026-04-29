@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: -4917126631068303632}
   - component: {fileID: 7453823253122354421}
   - component: {fileID: 3937825904082160751}
-  - component: {fileID: 8854969126509076697}
+  - component: {fileID: 1099311026439681727}
   m_Layer: 0
   m_Name: FaceProjectile
   m_TagString: Projectile
@@ -47,10 +47,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8173e08899088214a9492d084ee07817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FaceAttackBehaviour
-  harmlessPartTime: 3
-  harmfulPartTime: 3
+  harmlessPartTime: 1.5
+  harmfulPartTime: 2
   faceAnimator: {fileID: 3937825904082160751}
-  circleCollider2D: {fileID: 8854969126509076697}
+  circleCollider2D: {fileID: 1099311026439681727}
 --- !u!212 &7453823253122354421
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -131,7 +131,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!58 &8854969126509076697
+--- !u!58 &1099311026439681727
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -166,4 +166,4 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1
+  m_Radius: 0.48

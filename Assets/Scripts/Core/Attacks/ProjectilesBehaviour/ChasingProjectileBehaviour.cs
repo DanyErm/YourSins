@@ -15,6 +15,7 @@ public class ChasingProjectileBehaviour : MonoBehaviour
         {
             transform.rotation = Quaternion.Euler(0, 0, Mathf.Atan2(_char.GetPos().y - transform.position.y, _char.GetPos().x - transform.position.x) * Mathf.Rad2Deg);
             transform.Translate(Vector2.right * movementSpeed * Time.deltaTime, Space.Self);
+            duration -= Time.deltaTime;
         }
         else
         {

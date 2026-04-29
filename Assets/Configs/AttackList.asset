@@ -13,23 +13,658 @@ MonoBehaviour:
   m_Name: AttackList
   m_EditorClassIdentifier: Assembly-CSharp::Core.Attacks.AttackSettings.AttackList
   attackParameters:
-  - DelayTime: 0
-    FirstSpawnParameter: 0
-    SecondSpawnParameter: 0
-    ProjectileType: 4
-    AttackLocation: 2
   - DelayTime: 1
-    FirstSpawnParameter: 0
+    FirstSpawnParameter: 3
     SecondSpawnParameter: 0
     ProjectileType: 5
-    AttackLocation: 0
-  - DelayTime: 1
-    FirstSpawnParameter: 0
-    SecondSpawnParameter: 0
-    ProjectileType: 3
-    AttackLocation: 3
-  - DelayTime: 1
-    FirstSpawnParameter: 0
+    AttackLocation: 6
+  - DelayTime: 2
+    FirstSpawnParameter: 2
+    SecondSpawnParameter: 90
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 2
+    SecondSpawnParameter: -90
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0.5
+    FirstSpawnParameter: 1.5
+    SecondSpawnParameter: 45
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 1.5
+    SecondSpawnParameter: -135
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0.5
+    FirstSpawnParameter: 1.5
     SecondSpawnParameter: 0
     ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 1.5
+    SecondSpawnParameter: 90
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 1.5
+    SecondSpawnParameter: -90
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 1.5
+    SecondSpawnParameter: 180
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0.35
+    FirstSpawnParameter: 3.5
+    SecondSpawnParameter: -45
+    ProjectileType: 3
+    AttackLocation: 6
+  - DelayTime: 0.6
+    FirstSpawnParameter: 0.3
+    SecondSpawnParameter: 10
+    ProjectileType: 2
+    AttackLocation: 7
+  - DelayTime: 3
+    FirstSpawnParameter: 2
+    SecondSpawnParameter: 90
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 2
+    SecondSpawnParameter: -90
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 2
+    FirstSpawnParameter: 2
+    SecondSpawnParameter: 0
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 2
+    SecondSpawnParameter: 180
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 2
+    FirstSpawnParameter: 2
+    SecondSpawnParameter: 90
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 2
+    SecondSpawnParameter: -90
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 2
+    FirstSpawnParameter: 2
+    SecondSpawnParameter: 0
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 2
+    SecondSpawnParameter: 180
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 8.5
+    FirstSpawnParameter: 5
+    SecondSpawnParameter: 65
+    ProjectileType: 3
+    AttackLocation: 5
+  - DelayTime: 0
+    FirstSpawnParameter: 5
+    SecondSpawnParameter: -65
+    ProjectileType: 3
+    AttackLocation: 5
+  - DelayTime: 0
+    FirstSpawnParameter: 5
+    SecondSpawnParameter: 115
+    ProjectileType: 3
+    AttackLocation: 5
+  - DelayTime: 0
+    FirstSpawnParameter: 5
+    SecondSpawnParameter: -115
+    ProjectileType: 3
+    AttackLocation: 5
+  - DelayTime: 1.5
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 65
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: -65
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 115
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: -115
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 1
+    FirstSpawnParameter: 3
+    SecondSpawnParameter: 0
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 3
+    SecondSpawnParameter: 90
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 3
+    SecondSpawnParameter: -90
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 3
+    SecondSpawnParameter: 180
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 1
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 65
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: -65
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 115
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: -115
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 3
+    FirstSpawnParameter: 2
+    SecondSpawnParameter: 1.5
+    ProjectileType: 6
     AttackLocation: 1
+  - DelayTime: 0
+    FirstSpawnParameter: -0.5
+    SecondSpawnParameter: 1.5
+    ProjectileType: 6
+    AttackLocation: 2
+  - DelayTime: 0
+    FirstSpawnParameter: -1
+    SecondSpawnParameter: 1.5
+    ProjectileType: 6
+    AttackLocation: 1
+  - DelayTime: 0
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 1.5
+    ProjectileType: 6
+    AttackLocation: 2
+  - DelayTime: 1.5
+    FirstSpawnParameter: -3
+    SecondSpawnParameter: 1.5
+    ProjectileType: 6
+    AttackLocation: 3
+  - DelayTime: 0
+    FirstSpawnParameter: 1.5
+    SecondSpawnParameter: 0
+    ProjectileType: 6
+    AttackLocation: 0
+  - DelayTime: 0
+    FirstSpawnParameter: 0
+    SecondSpawnParameter: 1.5
+    ProjectileType: 6
+    AttackLocation: 3
+  - DelayTime: 0
+    FirstSpawnParameter: -1.5
+    SecondSpawnParameter: 0
+    ProjectileType: 6
+    AttackLocation: 0
+  - DelayTime: 0
+    FirstSpawnParameter: 3
+    SecondSpawnParameter: 1.5
+    ProjectileType: 6
+    AttackLocation: 3
+  - DelayTime: 2.5
+    FirstSpawnParameter: 2
+    SecondSpawnParameter: 1.5
+    ProjectileType: 6
+    AttackLocation: 1
+  - DelayTime: 0
+    FirstSpawnParameter: -0.5
+    SecondSpawnParameter: 1.5
+    ProjectileType: 6
+    AttackLocation: 2
+  - DelayTime: 0
+    FirstSpawnParameter: -1
+    SecondSpawnParameter: 1.5
+    ProjectileType: 6
+    AttackLocation: 1
+  - DelayTime: 0
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 1.5
+    ProjectileType: 6
+    AttackLocation: 2
+  - DelayTime: 0
+    FirstSpawnParameter: -3
+    SecondSpawnParameter: 1.5
+    ProjectileType: 6
+    AttackLocation: 3
+  - DelayTime: 0
+    FirstSpawnParameter: 1.5
+    SecondSpawnParameter: 0
+    ProjectileType: 6
+    AttackLocation: 0
+  - DelayTime: 0
+    FirstSpawnParameter: 0
+    SecondSpawnParameter: 1.5
+    ProjectileType: 6
+    AttackLocation: 3
+  - DelayTime: 0
+    FirstSpawnParameter: -1.5
+    SecondSpawnParameter: 0
+    ProjectileType: 6
+    AttackLocation: 0
+  - DelayTime: 0
+    FirstSpawnParameter: 3
+    SecondSpawnParameter: 1.5
+    ProjectileType: 6
+    AttackLocation: 3
+  - DelayTime: 3
+    FirstSpawnParameter: 0.8
+    SecondSpawnParameter: 7
+    ProjectileType: 2
+    AttackLocation: 7
+  - DelayTime: 0
+    FirstSpawnParameter: 0.9
+    SecondSpawnParameter: 7
+    ProjectileType: 2
+    AttackLocation: 7
+  - DelayTime: 2
+    FirstSpawnParameter: 0
+    SecondSpawnParameter: 0.5
+    ProjectileType: 0
+    AttackLocation: 1
+  - DelayTime: 12.5
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: -65
+    ProjectileType: 1
+    AttackLocation: 5
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 115
+    ProjectileType: 1
+    AttackLocation: 5
+  - DelayTime: 3
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 0
+    ProjectileType: 4
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 180
+    ProjectileType: 4
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 90
+    ProjectileType: 4
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: -90
+    ProjectileType: 4
+    AttackLocation: 6
+  - DelayTime: 1.5
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 90
+    ProjectileType: 3
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: -90
+    ProjectileType: 3
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 0
+    ProjectileType: 3
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 180
+    ProjectileType: 3
+    AttackLocation: 6
+  - DelayTime: 1.6
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 45
+    ProjectileType: 4
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 135
+    ProjectileType: 4
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: -135
+    ProjectileType: 4
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: -45
+    ProjectileType: 4
+    AttackLocation: 6
+  - DelayTime: 1.3
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 0
+    ProjectileType: 3
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 90
+    ProjectileType: 3
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: 180
+    ProjectileType: 3
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 4
+    SecondSpawnParameter: -90
+    ProjectileType: 3
+    AttackLocation: 6
+  - DelayTime: 2.5
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 0
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 7.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 15
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 22.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 30
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 37.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 45
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 52.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 60
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 67.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 75
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 82.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 90
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 97.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 105
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 112.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 120
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 127.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 135
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 142.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 150
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 157.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 165
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 172.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 180
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -172.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -157.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -150
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -142.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -135
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -127.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -120
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -112.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -105
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -97.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -90
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -82.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -75
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -67.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -60
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -52.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -45
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -37.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -30
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -22.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -15
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: -7.5
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 0.1
+    FirstSpawnParameter: 2.5
+    SecondSpawnParameter: 0
+    ProjectileType: 5
+    AttackLocation: 5
+  - DelayTime: 1
+    FirstSpawnParameter: 3
+    SecondSpawnParameter: 0
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 3
+    SecondSpawnParameter: 45
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 3
+    SecondSpawnParameter: 90
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 3
+    SecondSpawnParameter: 135
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 3
+    SecondSpawnParameter: 180
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 3
+    SecondSpawnParameter: -135
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 3
+    SecondSpawnParameter: -90
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 0
+    FirstSpawnParameter: 3
+    SecondSpawnParameter: -45
+    ProjectileType: 6
+    AttackLocation: 6
+  - DelayTime: 1.5
+    FirstSpawnParameter: 5
+    SecondSpawnParameter: 0
+    ProjectileType: 5
+    AttackLocation: 6

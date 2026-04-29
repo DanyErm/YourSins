@@ -48,9 +48,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CirclingProjectileBehaviour
   circleCollider: {fileID: 5317495661194276659}
-  circlingVelocity: 1
-  movementSpeed: 1
-  duration: 20
+  circlingVelocity: 5
+  movementSpeed: 0.8
+  duration: 19
 --- !u!212 &4927051504605389287
 SpriteRenderer:
   m_ObjectHideFlags: 0
